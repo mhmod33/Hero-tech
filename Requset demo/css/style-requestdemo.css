@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+
+.top-layer 
+{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%; 
+        background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/* start navbar  */
+
+/* start navbar  */
+
+.nav-links li>a
+{
+color: #fff;
+ 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 500;
+font-size: 29px;
+transition: all .3s;
+}
+
+.nav-links li>a:hover
+{
+    color: #DF9030;
+}
+ 
+ 
+.aim-logo img
+{
+    width: 80px;
+}
+
+
+.logo-right
+{
+width: 125px;
+}
+
+.logo-left
+{
+   width: 100px;
+}
+/* .before-top-layer img{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    padding: end;
+} */
+
+.before-top-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 25%;
+    background-image: url("../img/ui-ux-representations-with-smartphone\2.png");
+}
+
+
+
+/* DemoPage */
+
+.demo-title h1
+{
+    color: #FFF;
+    font-family: 'Righteous', cursive;    font-size:4rem;
+ 
+}
+
+.line{
+    width: 140px;
+    height: 7px;
+    background-color:#DF9030;
+    margin-right: 30px;
+
+}
+.row{
+    --bs-gutter-x:5rem !important;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 3rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(248, 247, 247);
+    color: white;
+    border-radius: 0%;
+}
+
+.form-control::placeholder{
+     color: rgb(255, 255, 255) ;
+     font-family: 'IBM Plex Mono', monospace;
+}
+
+.form-control:focus{
+background-color: transparent;
+color: #FFF;
+border-color: #DF9030;
+/* outline: none !important; */
+box-shadow: none !important;
+}
+
+.sub-btn button{
+   
+    width: 50%;
+    border: 2px solid #DF9030;
+    color: #FFF;
+    margin: 3%;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sub-btn button:hover{
+    border:transparent;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@600&display=swap');
+
+
+/* start home one  */
+ .row{
+    margin: 0;
+    padding: 0;
+    --bs-gutter-x: 0rem !important;
+    --bs-gutter-y: 0rem !important;
+ }
+.top-layer 
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* start navbar  */
+
+/* start navbar  */
+
+.nav-links li>a
+{
+color: #fff;
+ 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 500;
+font-size: 29px;
+transition: all .3s;
+}
+
+.nav-links li>a:hover
+{
+    color: #DF9030;
+}
+ 
+ 
+.aim-logo img
+{
+    width: 80px;
+}
+
+
+.logo-right
+{
+width: 125px;
+}
+
+.logo-left
+{
+   width: 100px;
+}
+
+/* SoftWarePage */
+
+.software-title h1
+{
+    color: #FFF;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:4rem;
+ 
+}
+
+.line{
+    width: 140px;
+    height: 7px;
+    background-color:#DF9030;
+    margin-right: 30px;
+
+}
+
+.software-right-side h2
+{
+color: #FFF;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.3rem;
+}
+.software-right-side{
+    --bs-gutter-x: 2rem;
+}
+.software-left-side img{
+    background-image: url("../img/Rectangle 18.png");
+    padding: 10px;
+    padding-left: 0;
+    background-size: 100% 100%;
+}
+
+
+
+.software-buttons button{
+    width: 12rem;
+    height: 5rem;
+    border: 2px solid #DF9030;
+    color: #FFF;
+    margin: 1%;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.software-buttons button:hover{
+    color: #FFF;
+    border-color: rgba(30, 30, 30, 0.30);
+    background-color: #1E1E1E;
+    transition: 0.5S;
+}
+.getdemoe-btn{
+    font-size: 1.5rem;
+}
+

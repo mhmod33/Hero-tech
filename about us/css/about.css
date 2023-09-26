@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+/* Define the font faces for each variant */
+@font-face {
+    font-family: 'Expo Arabic Book';
+    src: url('../fonts/Expo Arabic Book.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Expo Arabic Medium';
+    src: url('../fonts/Expo Arabic Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+  }
+  
+  @font-face {
+    font-family: 'Expo Arabic Bold';
+    src: url('../fonts/Expo Arabic Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+  }
+  
+  
+/* start home one  */
+.About-us
+{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bottom-layer
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    background-image: url('../img/softwareman.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    background-blend-mode: screen;
+ }
+.top-layer
+ {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+ }
+
+
+/* start navbar  */
+
+/* start navbar  */
+
+.nav-links li>a
+{
+color: #fff;
+ 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 500;
+font-size: 29px;
+transition: all .3s;
+}
+
+.nav-links li>a:hover
+{
+    color: #DF9030;
+}
+ 
+ 
+.aim-logo img
+{
+    width: 80px;
+}
+
+
+.logo-right
+{
+width: 125px;
+}
+
+.logo-left
+{
+   width: 100px;
+}
+
+/* start title  */
+
+.home-title
+{
+    margin-top: 3%;
+    text-align: center;
+    color: #fff;
+}
+.home-title h1 
+{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:4rem;
+}
+.line{
+background-color: #DF9030;
+width: 140px;
+height: 7px;
+margin-right: 30px;
+}
+
+/* start paragraph */
+
+.who-pargaragh{
+    padding: 12px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    background-image: url(../img/whorectangle.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 65%;
+  }
+
+.label .hero-tech-started {
+    font-family: "Open Sans-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.4rem;
+    border-top: 10px  ;
+   
+}
+
+.row
+{
+    margin: 0;
+}
+
+ 
+
+@media screen and  (min-width:992px) and (max-width:1200px) 
+{
+    .label .hero-tech-started {
+        font-size: 1.7rem;
+    }
+    .who-pargaragh{
+ 
+        width: 100%;
+        border-radius: 20px;
+
+      }
+    
+    .label .hero-tech-started {
+ 
+        font-size: 1.3rem;
+        
+    }
+    
+}
+
+@media screen and  (min-width:768px) and (max-width:992px) 
+{
+    .label .hero-tech-started {
+        font-size: 1.3rem;
+    }
+
+    .who-pargaragh{
+ 
+        width: 100%;
+        border-radius: 10px;
+
+      }
+    
+    .label .hero-tech-started {
+ 
+        font-size: 1.2rem;
+        
+    }
+    
+}
+
+
+@media screen and  (max-width:768px) 
+{
+    .label .hero-tech-started {
+        font-size: 1rem;
+    }
+    .who-pargaragh{
+ 
+        width: 100%;
+        border-radius: 7px;
+
+      }
+    
+    .label .hero-tech-started {
+ 
+        font-size: .8rem;
+        
+    }
+    
+}

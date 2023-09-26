@@ -1,0 +1,1151 @@
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #df9030;
+    border-radius: 25px;
+}
+
+
+/**************************** footer  **************************************************/
+.big-line{
+    background-color:#DF9030;
+    box-shadow: #1E1E1E;
+    width: 100%;
+    height: 80%;
+    padding: 10px 
+}
+.big-line button {
+    margin: 0 20px;
+    background-color: #1e1e1e;
+    border-radius: 250px;
+    color: #df9030;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 500;
+    /* padding: 22px; */
+    width: 180px;
+    height: 50px;
+    /* outline: #ff0000; */
+    border:#1E1E1E;
+
+}
+
+.big-line button>a 
+{
+    outline: #ff0000;
+    border:#1E1E1E;
+    text-decoration: none;
+    color: #df9030;
+    font-size: 1.4rem;
+    
+}
+.custom-footer .group{
+    /* margin-left: 32%; */
+    margin: auto;
+    text-align: center;
+}
+ .custom-footer {
+    background-color: #000;
+    text-align: center;
+    height: 80%;
+    margin-bottom: 0;
+ }
+ 
+.overlap-group .icon{
+    width: 65px;
+}
+.group-address{
+    color: #ffffff;
+}
+.overlap-group .address-title ,.call-title ,.mail-title
+{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 38px;
+    margin-top: -35PX;
+}
+ 
+.icon-call
+{
+    width: 100px;
+}
+.text-body{
+    color: #fff !important;
+    font-family: "Expo ArabicBook"  !important;
+}
+ 
+
+.e-mail-text{
+    color: #ffffff !important;
+    font-family: "Expo Arabic-Medium", Helvetica;
+}
+ 
+.mail-icon{
+    width: 110px;
+}
+ 
+.row .text{
+    color: white;
+    font-family: "Expo Arabic Book";
+    font-weight: 600;
+ }
+
+
+ .frame {
+    margin-top: 10px;
+    gap: 25px;
+    }
+
+     .frame a  
+     {
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        text-align: center;
+        margin: auto;
+        font-size: 22px;
+     }
+
+     .frame a:hover
+     {
+        border: 2px solid #DF9030;
+        color: #DF9030;
+     }
+
+ .frame .icon{
+
+    cursor: pointer; 
+    text-align: center;
+
+
+
+ }
+ 
+
+ .allrights .span {
+    font-family: "Expo Arabic Bold";
+    font-weight: 700;
+    color: #df9030;
+    
+ }
+.allrights .hero-tech-all-rights {
+      color: rgb(255, 255, 255);
+       font-family: "Expo Arabic Book";
+       font-size: 15px;
+ }
+
+.address h1
+{
+font-family: "Expo Arabic-Book", Helvetica;
+color: #df9030    ;
+text-align: start;
+
+  }
+ 
+.quick-links a 
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    font-family: "Barlow Semi Condensed-SemiBold", Helvetica;
+    display: block;
+    text-align: start;
+    transition: all .4s;
+ }
+
+ .quick-links a:hover
+ {
+    color: #DF9030;
+ }
+
+ .get-in-touch h1
+ {
+    font-family: "Expo Arabic-Medium", Helvetica;
+    color: #fff;
+    font-size: 44px;
+    font-weight: 500;
+ }
+ 
+
+ .frame #icons
+ {
+     padding: 7px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    display: block;
+     border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+ }
+
+ .follow .text{
+    font-family: "Expo Arabic-Medium", Helvetica;
+    color: #df9030;
+    font-size: 44px;
+    font-weight: 500;
+ }
+
+ .frame #iocns:hover {
+    color: #df9030;
+
+ }
+
+
+
+
+
+
+
+  /*************** media query  ****************/
+
+  /************* from size 1200px to 992px  *********/
+  @media screen and (min-width:992px)and (max-width:1200px)
+{
+     
+/* start navbar  */
+
+.nav-links li>a
+{ 
+  font-size: 25px;
+}
+
+/* start title  */
+
+.home-title h1 
+{
+     font-size: calc(2rem + 2vw);   
+}
+.home-title h3 
+{
+ 
+ 
+font-size: calc(1.7rem + 1.7vw);
+
+}
+
+/* end section  */
+
+/************** start button get  *************/
+.get-button 
+{
+     bottom: 12%;
+     left: 38%;
+}
+/* title offer  */
+  
+.title h1 
+{
+    font-size: 58px;
+ 
+ 
+ .empty 
+ {
+    height: 5px;
+    width: 120px;   
+  }}
+
+  .middle 
+{    
+    margin-top: 10%;
+    margin-bottom: -30%;
+}
+
+.middle h1
+{
+    font-size: 55px;
+}
+
+/* Unique-Product ---  service ---- Sring-Knowledgeha ----- Warranty---- experience */
+
+.Unique-Product p ,.service p
+{
+    font-size: 17px;
+}
+
+.experience p ,.Warranty p  ,.Sring-Knowledgeha p
+{
+    font-size: 20px;
+}
+
+.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+{
+    color:#DF9030;
+    padding-top: 18px;
+}
+
+ 
+.right-side ,.left-side
+{
+ 
+   margin-left: 10%;
+
+  
+ }
+ 
+ 
+.first-layer 
+{
+    top: -30%;
+ 
+}
+
+.first-layer2 
+{
+    top: 80%;
+   bottom: 0;
+   right: 10%;
+ 
+}
+
+
+
+}
+
+  /************* from size 992px to 768px  *********/
+  @media screen and (min-width:768px)and (max-width:992px)
+{
+ 
+/* start navbar  */
+
+.nav-links li>a
+{ 
+  font-size: 16px;
+}
+
+ .logo-right
+ {
+width: 90px;
+ }
+
+ .logo-left
+ {
+    width: 60px;
+ }
+/* start title  */
+
+.home-title h1 
+{
+     font-size: calc(1.5rem + 1.5vw);   
+}
+.home-title h3 
+{
+ 
+ 
+font-size: calc(1.2rem + 1.2vw);
+
+}
+
+/* end section  */
+
+ .s-h
+ {
+     margin: 0 !important;
+    padding: 0 !important;
+ 
+ }
+
+/************** start button get  *************/
+.get-button 
+{
+     bottom: 12%;
+     left: 33%;
+}
+
+.title h1 
+{
+    font-size: 54px;
+ .empty 
+ {
+    height: 4px;
+    width: 100px;     
+ }
+
+
+ }
+
+
+ /************** section middle offer  *************/
+
+ 
+.right-side ,.left-side
+{
+ 
+   /* margin-left: 10%; */
+
+  
+ }
+ .seconde-layer2 img 
+{
+    width: 100%;
+}
+
+.seconde-layer img 
+{
+    width: 50%;
+}
+ 
+ 
+ 
+ 
+.first-layer 
+{
+    top: -30%;
+ 
+}
+
+.first-layer2 
+{
+    top: 80%;
+   bottom: 0;
+   right: 10%;
+ 
+}
+
+  
+ 
+ 
+ .middle 
+{    color: #fff;
+    text-align: center; 
+     left: 40%;
+     position: relative;
+     /* top: -30%; */
+    margin-bottom: -50%;
+    padding-top: 10%;
+/* background-color: red; */
+
+}
+
+.middle h1
+{
+    font-family: Barlow Semi Condensed;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
+
+ .Unique-Product p ,.service p
+{
+    font-size: 15px;
+}
+
+.experience p ,.Warranty p  ,.Sring-Knowledgeha p
+{
+    font-size: 18px;
+}
+
+.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+{
+    color:#DF9030;
+    padding-top: 18px;
+}
+
+.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
+
+{
+    width: 100%;
+}
+
+.Unique-Product ,.experience 
+{
+    margin-top: 30%;
+
+}
+
+/**************** start footer  ****************/
+
+ 
+/* get in toucch  */
+.overlap-group .icon{
+    width: 45px;
+}
+.overlap-group .address-title ,.call-title,.mail-title
+{
+ 
+    font-size: 22px;
+    margin-top: -20PX;
+}
+.icon-call
+{
+    width: 55px;
+}
+.mail-icon{
+    width: 60px;
+}
+
+ 
+ 
+
+  
+ 
+.big-line button {
+    margin: 0 5px;
+ 
+    border-radius: 250px;
+  
+    /* padding: 22px; */
+    width: 160px;
+    height: 40px;
+ 
+
+}
+
+.big-line button>a 
+{
+ 
+    font-size: 1.2rem;
+    
+}
+
+
+}
+
+
+  /************* from size from 768px to 506  *********/
+  @media screen and (min-width:506px) and (max-width:768px)
+{
+
+/* start navbar  */
+
+.nav-links li>a
+{ 
+  font-size: 16px;
+}
+
+ .logo-right
+ {
+width: 90px;
+display: none;
+
+ }
+
+ .logo-left
+ {
+    width: 60px;
+ }
+/* start title  */
+
+.home-title h1 
+{
+     font-size: calc(1.5rem + 1.5vw);   
+}
+.home-title h3 
+{
+ 
+ 
+font-size: calc(1.2rem + 1.2vw);
+
+}
+
+/* end section  */
+
+
+/************** start button get  *************/
+ 
+.home-one
+{
+         height: 70vh;     
+ }
+
+.get-button 
+{
+
+     bottom: 4%;
+     left: 25%;
+ }
+
+ 
+
+.menue 
+{
+    padding: 8px 0;
+     width: 60px;
+    height: 40px;
+
+
+
+
+
+}
+
+ 
+ .text
+ {
+    font-size: 18px;
+ }
+
+.Mobil,.video,.Demo,.presentaion
+{
+    position: absolute;
+    z-index: -9;
+    opacity: 0;
+    transition: all 1s;
+    width: 60px;
+    height: 60px;
+
+    color: #fff;
+    
+
+
+}
+ 
+
+.master:hover 
+{
+
+  
+   
+    .presentaion ,.Demo ,.video ,.Mobil
+{
+    width: 100px;
+    height: 40px;
+}
+ 
+ 
+}
+
+/* offer title  */
+
+.title h1 
+{
+    font-size: 54px;
+ .empty 
+ {
+    height: 4px;
+    width: 100px;     
+ }
+ }
+
+  /************** section middle offer  *************/
+
+  
+ .right-side ,.left-side
+ {
+ 
+    margin-left: 0%;
+
+   
+  }
+ 
+ 
+  .middle 
+  {     
+        left: 0%;
+        margin-bottom: 0%;
+      padding-top: 15%;
+  /* background-color: red; */
+  
+  }
+  
+  .middle h1
+  {
+       font-size: 45px;
+      font-weight: 500;
+  }
+  
+ 
+  .middle h1>br 
+  {
+    display: none;
+  }
+
+  .experience p ,.Warranty p  ,.Sring-Knowledgeha p
+{
+    font-size: 18px;
+}
+.Unique-Product p ,.service p
+{
+    font-size: 15px;
+}
+.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+{
+    color:#DF9030;
+    padding-top: 18px;
+}
+
+.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
+
+{
+    width: 100%;
+ }
+ .success-image 
+{
+    margin: auto;
+    /* width: 20%; */
+    text-align: center;
+}
+.success-image img
+{
+    width: 40%;
+}
+
+.address h1 ,.quick-links a 
+{
+ 
+text-align: center;
+
+  }
+ 
+    
+ 
+.big-line button {
+    margin: 0 2px;
+ 
+    border-radius: 250px;
+  
+    /* padding: 22px; */
+    width: 130px;
+    height: 35px;
+ 
+
+}
+
+.big-line button>a 
+{
+ 
+    font-size: 1rem;
+    
+}
+
+
+}
+
+
+  /************* from size from 768px to 560px  *********/
+@media screen and (min-width:560px) and (max-width:768px)
+
+{
+    /************** start button get  *************/
+.get-button 
+{
+
+     bottom: 10%;
+     left: 30%;
+}
+
+.master 
+{
+     width: 350px;
+    height: 150px;
+     margin: auto;
+     /* background-color: red; */
+     margin-top: 160px;
+  
+}
+
+.menue 
+{
+    padding: 8px 0;
+     width: 60px;
+    height: 40px;
+
+}
+
+ 
+ .text
+ {
+    font-size: 18px;
+ }
+
+
+
+.master:hover 
+{
+
+    .presentaion ,.Demo ,.video ,.Mobil
+{
+    width: 100px;
+    height: 40px;
+}
+ 
+ 
+}
+.address h1 ,.quick-links a 
+{
+ 
+text-align: center;
+
+  }
+
+  .right-side ,.left-side
+  {
+  
+     margin-left: 0%;
+ 
+    
+   }
+  
+ 
+   
+
+}
+
+
+
+  /************* from size from 768px to 506  *********/
+  @media screen and (max-width:506px)
+{
+ 
+/* start navbar  */
+
+.nav-links li>a
+{ 
+  font-size: 12px;
+  padding: 3px;
+}
+
+ .logo-right
+ {
+width: 90px;
+display: none;
+
+ }
+
+ .logo-left
+ {
+    width: 60px;
+ }
+/* start title  */
+
+.home-title h1 
+{
+     font-size: calc(1rem + 1vw);   
+}
+.home-title h3 
+{
+ 
+ 
+font-size: calc(.8rem + .8vw);
+
+}
+
+/* end section  */
+
+
+/************** start button get  *************/
+ 
+.home-one
+{
+         height: 70vh;     
+ }
+
+.get-button 
+{
+
+     bottom: 4%;
+     left: 20%;
+ }
+
+ 
+
+.menue 
+{
+    padding: 8px 0;
+     width: 60px;
+    height: 40px;
+
+
+
+
+
+}
+
+
+ 
+ .text
+ {
+    font-size: 18px;
+ }
+
+.Mobil,.video,.Demo,.presentaion
+{
+    position: absolute;
+    z-index: -9;
+    opacity: 0;
+    transition: all 1s;
+    width: 60px;
+    height: 60px;
+
+    color: #fff;
+    
+
+
+}
+ 
+
+.master:hover 
+{
+
+  
+    .presentaion ,.Demo ,.video ,.Mobil
+{
+    width: 100px;
+    height: 40px;
+}
+ 
+ 
+}
+
+.right-side ,.left-side
+{
+
+   margin-left: 0%;
+
+  
+ }
+
+ 
+ .middle 
+ {     
+       left: 0%;
+       margin-bottom: 0%;
+     padding-top: 20%;
+ /* background-color: red; */
+ 
+ }
+ 
+ .middle h1
+ {
+      font-size: 45px;
+     font-weight: 500;
+ }
+ 
+
+ .middle h1>br 
+ {
+   display: none;
+ }
+.middle h1>br 
+{
+  display: none;
+}
+
+
+.experience p ,.Warranty p  ,.Sring-Knowledgeha p
+{
+    font-size: 18px;
+}
+.Unique-Product p ,.service p
+{
+    font-size: 15px;
+}
+.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+{
+    color:#DF9030;
+    padding-top: 18px;
+}
+
+.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
+
+{
+    width: 100%;
+ }
+ .success-image 
+{
+    margin: auto;
+    /* width: 20%; */
+    text-align: center;
+}
+.success-image img
+{
+    width: 40%;
+}
+
+.address h1 ,.quick-links a 
+{
+ 
+text-align: center;
+
+  }
+ 
+   
+.big-line button {
+    margin: 0 1px;
+ 
+    border-radius: 250px;
+  
+    /* padding: 2px; */
+    width: 90px;
+    height: 25px;
+ 
+
+}
+
+.big-line button>a 
+{
+ 
+    font-size: .7rem;
+    
+}
+
+
+}
+
+.up-button {
+    display: none;
+    background-color: #df9030;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9;
+  }
+  
+  .up-button:hover {
+    background-color: #e2b41e;
+  }
+  
+  .up-button img {
+    width: 15px;
+    height: 10px;
+    margin-left: 32%;
+    margin-top: 30%;
+  }
+
+
+
+@media screen  and (max-width:400px) 
+{
+    
+/************** start button get  *************/
+.get-button 
+{
+
+     bottom: 9%;
+     left: 0%;
+}
+
+.menue 
+{
+    padding: 8px 0;
+     width: 60px;
+    height: 40px;
+}
+
+ 
+ .text
+ {
+    font-size: 16px;
+ }
+
+.Mobil,.video,.Demo,.presentaion
+{
+    width: 60px;
+    height: 50px;
+}
+ 
+
+.master:hover 
+{
+
+   
+   
+    .presentaion ,.Demo ,.video ,.Mobil
+{
+    width: 100px;
+    height: 40px;
+}
+ 
+ 
+}
+
+/* offer title  */
+
+.title h1 
+{
+    font-size: 35px;
+ .empty 
+ {
+    height: 3px;
+    width: 80px;     
+ }
+ }
+
+ .middle 
+ {     
+       left: 0%;
+       margin-bottom: 0%;
+     padding-top: 55%;
+ /* background-color: red; */
+ 
+ }
+ 
+ .middle h1
+ {
+       font-size: 45px;
+     font-weight: 500;
+ }
+ .middle h1>br 
+ {
+   display: none;
+ }
+
+ 
+
+.experience p ,.Warranty p  ,.Sring-Knowledgeha p
+{
+    font-size: 16px;
+}
+.Unique-Product p ,.service p
+{
+    font-size: 13px;
+}
+.Unique-Product h4 ,.experience h4 ,.Warranty h4 ,.Sring-Knowledgeha h4 ,.service h4
+{
+    color:#DF9030;
+    padding-top: 18px;
+}
+
+.Unique-Product  ,.experience ,.Warranty ,.Sring-Knowledgeha,.service 
+
+{
+    width: 100%;
+    padding: 10%;
+ }
+ .success-image 
+{
+    margin: auto;
+    /* width: 20%; */
+    text-align: center;
+}
+.success-image img
+{
+    width: 40%;
+}
+.address h1 ,.quick-links a 
+{
+ 
+text-align: center;
+
+  }
+ 
+}
+
+
+
+
+
+
+
+
+ 
+.active-link
+{
+  color: #df9030 !important;
+ }
+
+.get-in-touch ,.text-body,.address-title ,.call-title ,.mail-title,.span,.text
+{
+    font-family: "Expo Arabic-Medium", Helvetica !important;
+}

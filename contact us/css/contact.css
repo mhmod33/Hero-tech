@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+/* Define the font faces for each variant */
+@font-face {
+    font-family: 'Expo Arabic Book';
+    src: url('../fonts/Expo Arabic Book.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Expo Arabic Medium';
+    src: url('../fonts/Expo Arabic Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+  }
+  
+  @font-face {
+    font-family: 'Expo Arabic Bold';
+    src: url('../fonts/Expo Arabic Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+  }
+  
+  
+/* start home one  */
+.About-us
+{
+    position: relative;
+    /* background-color:#474747; */
+    height: auto;
+    width: 100%;
+}
+
+.bottom-layer
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    background-image: url('../img/cyborg-hand-finger-moving-artificial-intelligence-dexterous-robot\ 1.jpg');
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+    background-blend-mode: screen;
+    
+ }
+/* layer to custom bg */
+ .top-layer
+ {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgba(22, 27, 33, 0.6);
+ }
+
+/* start navbar  */
+/* start navbar  */
+
+.nav-links li>a
+{
+color: #fff;
+ 
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 500;
+font-size: 29px;
+transition: all .3s;
+}
+
+.nav-links li>a:hover
+{
+    color: #DF9030;
+}
+ 
+ 
+.aim-logo img
+{
+    width: 80px;
+}
+
+
+.logo-right
+{
+width: 125px;
+}
+
+.logo-left
+{
+   width: 100px;
+}
+ 
+/* overlay layer */
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: -400px;
+    right: 0;
+    bottom: 0;
+    width: 800px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #ffd34833;
+    filter: blur(48px);
+}
+ 
+/* start title  */
+
+.home-title
+{
+    margin-top: 10%;
+    text-align: center;
+    color: #fff;
+}
+.home-title h1 
+{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size:4rem;
+}
+.line{
+background-color: #DF9030;
+width: 140px;
+height: 7px;
+margin-right: 5%;
+}
+
+/* start paragraph */
+
+.contact-pargaragh{
+    padding: 2%;
+    margin-top: 5%;
+    margin-bottom: 35%;
+    border-radius: 6px;    
+    background-image: url(../img/whorectangle.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin-left: 25%; */
+    /* width: 60%; */
+ 
+}
+.Contact-text{
+    font-size: 1.5rem;
+    font-family: 'Open Sans-Semibold', sans-serif;
+    color: #ffffff;
+}
+
+
+
+.label .hero-tech-started {
+    font-family: "Open Sans-Medium", Helvetica;
+    color: #ffffff;
+    font-size: .02rem;
+  
+   
+}
+/* .contact-row{
+
+} */
+.row
+{
+    margin: 0;
+}
+
+.contact-content{
+    margin-top: 5%;
+    /* margin-right: 12%; */
+}
+ 
+.form-custom
+{
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none;
+    backdrop-filter: blur(28px) brightness(100%);
+    width: 100%;
+}
+.form-custom:focus{
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none !important;
+    outline: none;
+    border-color: #DF9030;
+    color: #fff;
+}
+.row input{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-bottom: 35px;
+    margin-bottom: 15px;
+}
+#message{
+    width: 100%; 
+    height: 180px;
+    padding-bottom: 105px;
+    border: 0.2px solid #ffffff;
+    color: #FFFFFF !important;
+}
+#message:focus{
+border-color: #DF9030;
+}
+.row input::placeholder{
+color: #b4b1b1;
+}
+
+.form-send-button{
+    border-radius: 25px;
+    border: 2px solid #DF9030;
+    background: rgba(30, 30, 30, 0.30);
+    color: #FFFFFF;
+    width: 100%;
+    height: 90px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-send-button:hover{
+    border-color: rgba(30, 30, 30, 0.30);
+    background-color: #1E1E1E;
+    transition: 0.5s;
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+    .Contact-text{
+        font-size: 1.3rem;
+    }
+
+    .container
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .Contact-text{
+        font-size: 1.2rem;
+         color: #ffffff;
+    }
+
+
+    .contact-pargaragh{
+        padding: 3% !important;
+ 
+    }
+    
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    .Contact-text{
+        font-size: 1.1rem;
+    }
+
+    .container
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .Contact-text{
+        font-size: 1.2rem;
+         color: #ffffff;
+    }
+
+
+    .contact-pargaragh{
+        padding: 3% !important;
+ 
+    }
+    
+}
+
+
+@media screen and (max-width:768px){
+    
+    .Contact-text{
+        font-size: .9rem;
+    }
+
+    .container
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .Contact-text{
+        font-size: 1.2rem;
+         color: #ffffff;
+  
+    }
+
+
+    .contact-pargaragh{
+        padding: 3% !important;
+        text-align: start !important;
+    }
+ 
+    
+}
